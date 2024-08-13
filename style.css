@@ -7,8 +7,8 @@
 
 body {
     box-sizing: border-box;
-    padding-bottom: 5%; 
-    min-height:100vh;
+    padding-bottom: 5%;
+    min-height: 100vh;
     position: relative;
 }
 
@@ -19,7 +19,8 @@ body {
     width: 100%;
     background-color: cadetblue;
 }
-#nav li{
+
+#nav li {
     text-align: center;
 }
 
@@ -27,17 +28,19 @@ body {
 
     display: flex;
     align-items: center;
-    font-family:open-s;
+    font-family: open-s;
     color: whitesmoke;
     letter-spacing: 2px;
 
 }
+
 .ruler {
-    background-color:black;
+    background-color: black;
     height: 20px;
     width: 100%;
     margin: 0%;
 }
+
 #nav a {
     font-family: poppins;
     color: white;
@@ -48,15 +51,34 @@ body {
     width: 10%;
 }
 
-.table-bordered th, .table-bordered td {
-            border: 2px solid black;
-            word-wrap: break-word;
-            word-break: break-all;
-            text-align: center;
-            vertical-align: middle;
-        }
-        th, td {
-            background-color: #d3d3d3;/
-        }
-        td {
-            max-width: 100px;         }
+.table-bordered th,
+.table-bordered td {
+    border: 2px solid black;
+    word-wrap: break-word;
+    word-break: break-all;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th,
+td {
+    background-color: #d3d3d3;/
+}
+
+td {
+    max-width: 100px;
+}
+
+.form-control {
+    border-radius: 0;
+    border: 1px solid #ced4da;
+}
+
+.input-group-text {
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+}
+
+.form-label {
+    font-weight: bold;
+}
