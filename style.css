@@ -17,7 +17,7 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    background-color: cadetblue;
+    background-color: lightblue;
 }
 
 #nav li {
@@ -35,7 +35,7 @@ body {
 }
 
 .ruler {
-    background-color: black;
+    background-color:lavender;
     height: 20px;
     width: 100%;
     margin: 0%;
